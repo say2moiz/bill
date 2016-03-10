@@ -1,0 +1,39 @@
+/* ================================= Clear Fix Class================================*/
+.clearfix:before, .clearfix:after {content: "";display: table;}
+.clearfix:after {clear: both;}
+.clearfix { *zoom: 1;}
+/* ================================= Clear Fix Class================================*/
+
+/* ==================================== Login Page ====================================== */
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+    height: 5px; border-top: 0;background: #c4e17f;border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+/* ==================================== Login Page ====================================== */
+
+
+
+/*=================================== Bill CSS Start ======================================================*/
+#container{clear: both; display: block; float: none; width: 80%;padding: 10% 10%;font-family: 'Fjalla One', sans-serif;}
+#container .top{clear: both;width: 100%;border-bottom: 1px solid #000;padding-bottom: 1%;}
+#container .top .topRight{display: inline-block;float: right;width: 100%;}
+#container .top .topRight .companyName{float: right;clear: both;font-weight: bold;font-size: 24px;padding-bottom: 4%;}
+#container .top .topRight .address,#container .top .topRight .address div{clear: both;float: right;font-size: 18px;}
+#container .top .topRight .address .addLine2,#container .top .topRight .address .addLine3,#container .top .topRight .address .phone{margin-top: 3%;}
+#container .mid{clear: both;width: 100%;border-bottom: 1px solid #000;padding: 4% 0% 1% 0%;}
+#container .mid .midHeading{width: 100%; text-align: center; font-size: 24px; font-weight: bold;padding-bottom: 4%;}
+#container .mid .row,#container .bottom .row{clear: both;margin: 1% 0%;}
+#container .mid .col,#container .bottom .col{display: inline-block;float: left;}
+#container .mid .col1,#container .bottom .col1{margin-left: 1%;width: 36%;}
+#container .mid .col2,#container .bottom .col2{width: 38%;}
+#container .mid .col3,#container .bottom .col3{width: 25%;text-align: right;}
+#container .bottom{padding-top: 4%;}
+#container .footer{margin: 25% 0% 0% 1%;}
+#container .footer .leftSign{float: left; display: inline-block;border-top:1px solid #000; padding-top: 0.5%;}
+#container .footer .rightSign{float: right; display: inline-block;border-top:1px solid #000;padding-top: 0.5%;}
+/*=================================== Bill CSS End ========================================================*/
+

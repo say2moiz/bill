@@ -1,0 +1,5 @@
+.top img {position: fixed;opacity: 0.2;top: 1% !important; left: 96%;}
+.bottom img{position: fixed;bottom: 1% !important;opacity: 0.2; left: 96%;}
+@media screen and (max-width: 786px) {
+    .top img,.bottom img {left: 85%;}
+}
